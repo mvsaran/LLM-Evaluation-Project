@@ -1,0 +1,11 @@
+[project]
+name = "llmevaluation"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-openai>=1.1.12",
+    "pytest>=9.0.2",
+    "ragas>=0.4.3",
+    "requests>=2.33.0",
+]
